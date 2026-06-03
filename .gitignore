@@ -1,0 +1,48 @@
+# Environnements
+.venv/
+venv/
+env/
+.conda/
+
+# Caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Données téléchargées
+data/MNIST/
+data/cifar-10-batches-py/
+data/cifar-10-python.tar.gz
+data/lfw_home/
+data/*.tar.gz
+data/*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Sorties de modèles
+*.pth
+*.pt
+*.h5
+*.pkl
+runs/
+
+# Build slides
+slides/**/build/
+slides/**/*.pdf
+slides/**/assets/*.png

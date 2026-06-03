@@ -1,0 +1,28 @@
+name: image-processing-course
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - pip
+  # Coeur scientifique
+  - numpy>=1.26
+  - scipy>=1.11
+  - matplotlib>=3.8
+  - pandas>=2.1
+  # Traitement d'image
+  - pillow>=10.0
+  - scikit-image>=0.22
+  - opencv>=4.8
+  # Machine learning
+  - scikit-learn>=1.4
+  # Deep learning (CPU par défaut — voir requirements.txt pour GPU)
+  - pytorch>=2.2
+  - torchvision>=0.17
+  # Notebooks
+  - jupyterlab>=4.0
+  - ipywidgets>=8.1
+  - tqdm>=4.66
+  # Pip-only
+  - pip:
+      - imageio>=2.34
