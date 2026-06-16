@@ -1,8 +1,9 @@
 # Computer Vision — exercices
 
-Recueil de **19 travaux pratiques** sur le traitement d'image et le machine
+Recueil de **21 travaux pratiques** sur le traitement d'image et le machine
 learning appliqué aux images en Python. Issus de la formation Profind
-*Intelligence artificielle, traitement d'image avec Python* (3 jours / 21 h).
+*Intelligence artificielle, traitement d'image avec Python* (3 jours / 21 h),
+prolongée par un demi-jour sur les Vision Transformers.
 
 > **Note** : ce dépôt contient uniquement les **énoncés**. Les solutions
 > commentées sont distribuées aux participants à l'issue de chaque journée.
@@ -42,6 +43,13 @@ learning appliqué aux images en Python. Issus de la formation Profind
 | 17 | `17_cnn-cifar_enonce.ipynb` | PyTorch, torchvision |
 | 18 | `18_transfer-learning_enonce.ipynb` | PyTorch, MobileNetV2 |
 | 19 | `19_mini-projet-guide_enonce.ipynb` | PyTorch, scikit-learn |
+
+### Jour 4 — Computer Vision post-CNN (Vision Transformer)
+
+| # | Notebook | Bibliothèques |
+|---|----------|---------------|
+| 20 | `20_vit-attention_enonce.ipynb` | PyTorch, timm |
+| 21 | `21_vit-linear-probing_enonce.ipynb` | PyTorch, timm, scikit-learn |
 
 ## Prérequis
 
@@ -84,6 +92,9 @@ jupyter lab
 
 Les TPs 16 à 19 (PyTorch) téléchargent automatiquement leur dataset
 (MNIST, CIFAR-10, Fashion-MNIST) dans le dossier `data/` au premier lancement.
+Les TPs 20 et 21 (Vision Transformer) téléchargent un checkpoint timm
+(`vit_small_patch16_224.augreg_in21k_ft_in1k`, ~85 Mo) et STL-10 pour le TP 21
+(~2.5 Go), eux aussi automatiquement au premier lancement.
 Les autres TPs utilisent les images embarquées dans `skimage.data` et
 `sklearn.datasets` — aucun téléchargement requis.
 
