@@ -46,5 +46,3 @@ runs/
 slides/**/build/
 slides/**/*.pdf
 slides/**/assets/*.png
-# Corrections (locales uniquement, jamais push)
-*_correction.ipynb

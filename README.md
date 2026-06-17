@@ -5,8 +5,9 @@ learning appliqué aux images en Python. Issus de la formation Profind
 *Intelligence artificielle, traitement d'image avec Python* (3 jours / 21 h),
 prolongée par un demi-jour sur les Vision Transformers.
 
-> **Note** : ce dépôt contient uniquement les **énoncés**. Les solutions
-> commentées sont distribuées aux participants à l'issue de chaque journée.
+> Chaque TP est livré en deux fichiers : `NN_topic_enonce.ipynb` (à remplir
+> par les participants) et `NN_topic_correction.ipynb` (solution commentée
+> avec sorties exécutées).
 
 ## Sommaire des exercices
 
