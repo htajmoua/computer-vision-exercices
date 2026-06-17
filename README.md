@@ -40,7 +40,7 @@ prolongée par un demi-jour sur les Vision Transformers.
 | 14 | `14_eigenfaces_enonce.ipynb` | scikit-learn |
 | 15 | `15_segmentation-mesures_enonce.ipynb` | scikit-image |
 | 16 | `16_cnn-mnist_enonce.ipynb` | PyTorch |
-| 17 | `17_cnn-cifar_enonce.ipynb` | PyTorch, torchvision |
+| 17 | `17_cnn-fashion_enonce.ipynb` | PyTorch, torchvision |
 | 18 | `18_transfer-learning_enonce.ipynb` | PyTorch, MobileNetV2 |
 | 19 | `19_mini-projet-guide_enonce.ipynb` | PyTorch, scikit-learn |
 
